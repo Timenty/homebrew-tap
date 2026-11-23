@@ -4,7 +4,7 @@ cask "lidawake" do
 
   url "https://github.com/Timenty/lid-awake/releases/download/v#{version}/LidAwake.zip"
   name "LidAwake"
-  desc "Menu bar toggle to keep a Mac awake with the lid closed"
+  desc "Menu bar toggle that keeps the laptop awake with the lid closed"
   homepage "https://github.com/Timenty/lid-awake"
 
   livecheck do
@@ -12,7 +12,7 @@ cask "lidawake" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :big_sur"
+  depends_on :macos
 
   app "LidAwake/LidAwake.app"
 
