@@ -1,6 +1,6 @@
 cask "lidawake" do
   version "1.2.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "26ce4a146731522300c8dae11195ced3cbb1576f18d74601b87a39c9a8785457"
 
   url "https://github.com/Timenty/lid-awake/releases/download/v#{version}/LidAwake.zip"
   name "LidAwake"
