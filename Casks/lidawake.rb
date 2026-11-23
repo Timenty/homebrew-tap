@@ -33,6 +33,6 @@ cask "lidawake" do
     for your password once to install a narrowly scoped sudo rule
     (/etc/sudoers.d/lidawake: pmset disablesleep/lowpowermode/sleepnow only).
 
-    Launch at login: System Settings → General → Login Items → + → LidAwake.
+    Launch at login: right-click the mug → Open at Login.
   EOS
 end
